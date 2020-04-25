@@ -1,2 +1,2 @@
 #!/bin/bash
-zip -r dist/script.program.testaddon.zip script.program.testaddon/*
+rm dist/script.program.testaddon.zip; zip -r dist/script.program.testaddon.zip script.program.testaddon/*
