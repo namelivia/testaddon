@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.testaddon" name="test addon" version="0.0.1" provider-name="namelivia">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Just a test addon</summary>
+		<description lang="en_GB">An addon I've created to test how to create one</description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
