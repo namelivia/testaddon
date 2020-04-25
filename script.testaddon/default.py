@@ -50,8 +50,8 @@ if (__name__ == '__main__'):
     # 5 [kodi 18] set to True for a media window (a window that will list music / videos / pictures), set to False otherwise
     # 6 [optional] if you need to pass additional data to your window, simply add them to the list
     # you'll have to add them as key=value pairs: key1=value1, key2=value2, etc...
-    ui = GUI('script-testwindow.xml', CWD, 'default', '1080i', True, optional1='some data') # for kodi 18 and up..
-#    ui = GUI('script-testwindow.xml', CWD, 'default', '1080i', optional1='some data') # use this line instead for kodi 17 and earlier
+    ui = GUI('script-testaddon.xml', CWD, 'default', '1080i', True, optional1='some data') # for kodi 18 and up..
+#    ui = GUI('script-testaddon.xml', CWD, 'default', '1080i', optional1='some data') # use this line instead for kodi 17 and earlier
     # now open your window. the window will be shown until you close your addon
     ui.doModal()
     # window closed, now cleanup a bit: delete your window before the script fully exits
